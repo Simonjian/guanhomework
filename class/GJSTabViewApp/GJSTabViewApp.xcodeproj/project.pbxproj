@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F476DD781C992EC600712187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F476DD771C992EC600712187 /* main.m */; };
+		F476DD7B1C992EC600712187 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F476DD7A1C992EC600712187 /* AppDelegate.m */; };
+		F476DD7E1C992EC600712187 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F476DD7D1C992EC600712187 /* FirstViewController.m */; };
+		F476DD811C992EC600712187 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F476DD801C992EC600712187 /* SecondViewController.m */; };
+		F476DD841C992EC600712187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476DD821C992EC600712187 /* Main.storyboard */; };
+		F476DD861C992EC600712187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F476DD851C992EC600712187 /* Assets.xcassets */; };
+		F476DD891C992EC600712187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476DD871C992EC600712187 /* LaunchScreen.storyboard */; };
+		F476DD941C992EC600712187 /* GJSTabViewAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F476DD931C992EC600712187 /* GJSTabViewAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F476DD901C992EC600712187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F476DD6B1C992EC600712187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F476DD721C992EC600712187;
+			remoteInfo = GJSTabViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F476DD731C992EC600712187 /* GJSTabViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJSTabViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F476DD771C992EC600712187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F476DD791C992EC600712187 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F476DD7A1C992EC600712187 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F476DD7C1C992EC600712187 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F476DD7D1C992EC600712187 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F476DD7F1C992EC600712187 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F476DD801C992EC600712187 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F476DD831C992EC600712187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F476DD851C992EC600712187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F476DD881C992EC600712187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F476DD8A1C992EC600712187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F476DD8F1C992EC600712187 /* GJSTabViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJSTabViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F476DD931C992EC600712187 /* GJSTabViewAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJSTabViewAppTests.m; sourceTree = "<group>"; };
+		F476DD951C992EC600712187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F476DD701C992EC600712187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F476DD8C1C992EC600712187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F476DD6A1C992EC600712187 = {
+			isa = PBXGroup;
+			children = (
+				F476DD751C992EC600712187 /* GJSTabViewApp */,
+				F476DD921C992EC600712187 /* GJSTabViewAppTests */,
+				F476DD741C992EC600712187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F476DD741C992EC600712187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F476DD731C992EC600712187 /* GJSTabViewApp.app */,
+				F476DD8F1C992EC600712187 /* GJSTabViewAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F476DD751C992EC600712187 /* GJSTabViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				F476DD791C992EC600712187 /* AppDelegate.h */,
+				F476DD7A1C992EC600712187 /* AppDelegate.m */,
+				F476DD7C1C992EC600712187 /* FirstViewController.h */,
+				F476DD7D1C992EC600712187 /* FirstViewController.m */,
+				F476DD7F1C992EC600712187 /* SecondViewController.h */,
+				F476DD801C992EC600712187 /* SecondViewController.m */,
+				F476DD821C992EC600712187 /* Main.storyboard */,
+				F476DD851C992EC600712187 /* Assets.xcassets */,
+				F476DD871C992EC600712187 /* LaunchScreen.storyboard */,
+				F476DD8A1C992EC600712187 /* Info.plist */,
+				F476DD761C992EC600712187 /* Supporting Files */,
+			);
+			path = GJSTabViewApp;
+			sourceTree = "<group>";
+		};
+		F476DD761C992EC600712187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F476DD771C992EC600712187 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F476DD921C992EC600712187 /* GJSTabViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F476DD931C992EC600712187 /* GJSTabViewAppTests.m */,
+				F476DD951C992EC600712187 /* Info.plist */,
+			);
+			path = GJSTabViewAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F476DD721C992EC600712187 /* GJSTabViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F476DD981C992EC600712187 /* Build configuration list for PBXNativeTarget "GJSTabViewApp" */;
+			buildPhases = (
+				F476DD6F1C992EC600712187 /* Sources */,
+				F476DD701C992EC600712187 /* Frameworks */,
+				F476DD711C992EC600712187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJSTabViewApp;
+			productName = GJSTabViewApp;
+			productReference = F476DD731C992EC600712187 /* GJSTabViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F476DD8E1C992EC600712187 /* GJSTabViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F476DD9B1C992EC600712187 /* Build configuration list for PBXNativeTarget "GJSTabViewAppTests" */;
+			buildPhases = (
+				F476DD8B1C992EC600712187 /* Sources */,
+				F476DD8C1C992EC600712187 /* Frameworks */,
+				F476DD8D1C992EC600712187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F476DD911C992EC600712187 /* PBXTargetDependency */,
+			);
+			name = GJSTabViewAppTests;
+			productName = GJSTabViewAppTests;
+			productReference = F476DD8F1C992EC600712187 /* GJSTabViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F476DD6B1C992EC600712187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = IOS2016;
+				TargetAttributes = {
+					F476DD721C992EC600712187 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 67QHZUNPNV;
+					};
+					F476DD8E1C992EC600712187 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 67QHZUNPNV;
+						TestTargetID = F476DD721C992EC600712187;
+					};
+				};
+			};
+			buildConfigurationList = F476DD6E1C992EC600712187 /* Build configuration list for PBXProject "GJSTabViewApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F476DD6A1C992EC600712187;
+			productRefGroup = F476DD741C992EC600712187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F476DD721C992EC600712187 /* GJSTabViewApp */,
+				F476DD8E1C992EC600712187 /* GJSTabViewAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F476DD711C992EC600712187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F476DD891C992EC600712187 /* LaunchScreen.storyboard in Resources */,
+				F476DD861C992EC600712187 /* Assets.xcassets in Resources */,
+				F476DD841C992EC600712187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F476DD8D1C992EC600712187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F476DD6F1C992EC600712187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F476DD811C992EC600712187 /* SecondViewController.m in Sources */,
+				F476DD7B1C992EC600712187 /* AppDelegate.m in Sources */,
+				F476DD7E1C992EC600712187 /* FirstViewController.m in Sources */,
+				F476DD781C992EC600712187 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F476DD8B1C992EC600712187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F476DD941C992EC600712187 /* GJSTabViewAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F476DD911C992EC600712187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F476DD721C992EC600712187 /* GJSTabViewApp */;
+			targetProxy = F476DD901C992EC600712187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F476DD821C992EC600712187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F476DD831C992EC600712187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F476DD871C992EC600712187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F476DD881C992EC600712187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F476DD961C992EC600712187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F476DD971C992EC600712187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F476DD991C992EC600712187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GJSTabViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IOS2016-GJ.GJSTabViewApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F476DD9A1C992EC600712187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GJSTabViewApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IOS2016-GJ.GJSTabViewApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F476DD9C1C992EC600712187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GJSTabViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IOS2016-GJ.GJSTabViewAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJSTabViewApp.app/GJSTabViewApp";
+			};
+			name = Debug;
+		};
+		F476DD9D1C992EC600712187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GJSTabViewAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.IOS2016-GJ.GJSTabViewAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJSTabViewApp.app/GJSTabViewApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F476DD6E1C992EC600712187 /* Build configuration list for PBXProject "GJSTabViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F476DD961C992EC600712187 /* Debug */,
+				F476DD971C992EC600712187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F476DD981C992EC600712187 /* Build configuration list for PBXNativeTarget "GJSTabViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F476DD991C992EC600712187 /* Debug */,
+				F476DD9A1C992EC600712187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F476DD9B1C992EC600712187 /* Build configuration list for PBXNativeTarget "GJSTabViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F476DD9C1C992EC600712187 /* Debug */,
+				F476DD9D1C992EC600712187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F476DD6B1C992EC600712187 /* Project object */;
+}
